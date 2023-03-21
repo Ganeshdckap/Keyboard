@@ -20,7 +20,7 @@ for(let i =0; i<buttons.length;i++){
         if(e.target.innerText !== "space" && e.target.innerText !=="Enter"  
         && e.target.innerText !=="Backspace"
         && e.target.innerText!== "Shift"
-        && e.target.innerText!== "CapsLock" && e.target.innerText!== "Tab" && e.target.innerText!== "capslock" && e.target.innerText!=="DEL"){
+        && e.target.innerText!== "CapsLock" && e.target.innerText!== "Tab" && e.target.innerText!== "capslock" && e.target.innerText!=="Del"){
             outputScreen.value += e.target.innerText;
         }
     }) 
@@ -33,7 +33,7 @@ let caps = document.querySelector(".caps");
         && buttons[i].innerText!== "Shift" 
         && buttons[i].innerText!== "Tab" 
         && buttons[i].innerText!== "CapsLock"
-        && buttons[i].innerText!== "DEL"){
+        && buttons[i].innerText!== "Del"){
            buttons[i].classList.toggle('UppperCase')
         }
     })
