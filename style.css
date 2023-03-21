@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #ecf0f3;
+    font-family: sans-serif;
+    outline: none;
+}
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.keyboard{
+    background-color: #ecf0f3;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px #ffffff,
+                    5px 5px 12px rgba(0,0,0,.16);
+}
+textarea {
+    height: 150px;
+    width: 1000px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffffff, 5px 5px 12px rgb(0 0 0 / 16%);
+    border: none;
+    border-radius: 30px;
+    color: rgb(70, 70, 70);
+    font-size: 30px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    resize: none;
+    caret-color: rgb(0, 0, 0);
+}
+
+button{
+    height: 48px;
+    width: 48px;
+    background-color:#ecf0f3 ;
+    box-shadow: -5px -5px 12px #ffffff,
+    5px 5px 12px rgba(0,0,0,.16);
+    border-color: white;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button.Backspace{
+    width: 180px;
+}
+button.Tab{
+    width: 130px;
+}
+button.slash{
+    width: 98px;
+}
+button.caps{
+    width: 130px;
+}
+button.enter{
+    width: 160px;
+}
+button.shift{
+    width: 175px;
+}
+button.space{
+    width: 400px;
+}
+button.ctrl{
+    width: 90px;
+}
+.pgup {
+    position: relative;
+    bottom: 11px;
+    width: 60px;
+    height: 20px;
+    left: 7px;
+}
+.pgdown {
+    position: relative;
+    left: 40px;
+    width: 60px;
+    height: 20px;
+    bottom: 11px;
+    border-radius: 5px;
+}
+button.arrow{
+    width: 45px;
+    height: 25px;
+    border-radius: 5px;
+}
+button.up {
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+    position: absolute;
+    top: 81vh;
+    left: 1063px;
+}
+.symbals {
+    margin-left: 148vh;
+    position: absolute;
+    top: 498px;
+    left: 162px;
+    border-radius: 5px;
+}
+.UppperCase{
+    text-transform:lowercase;
+}
+.change{
+
+}

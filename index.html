@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Keyboard</title>
+</head>
+
+<body >
+    <div class="container">
+       
+        <div class="keyboard">
+            <h1>Keyboard</h1>
+            <textarea name="text" class="caret-bar" id="output-screen" cols="30" autofocus rows="10"></textarea>
+            <div class="firstline">
+                <button id="changekeys">`</button>
+                <button id="changekeys">1</button>
+                <button id="changekeys">2</button>
+                <button id="changekeys">3</button>
+                <button id="changekeys">4</button>
+                <button id="changekeys">5</button>
+                <button id="changekeys">6</button>
+                <button id="changekeys">7</button>
+                <button id="changekeys">8</button>
+                <button id="changekeys">9</button>
+                <button id="changekeys">0</button>
+                <button id="changekeys">-</button>
+                <button id="changekeys">+</button>
+                <button onclick="del()" class="Backspace">Backspace</button><br>
+            </div>
+            <!-- sendond line -->
+            <div class="secondline">
+                <button onclick="display('    ')" class="Tab">Tab</button>
+                <button>Q</button>
+                <button>W</button>
+                <button>E</button>
+                <button>R</button>
+                <button>T</button>
+                <button>Y</button>
+                <button>U</button>
+                <button>I</button>
+                <button>O</button>
+                <button>P</button>
+                <button id="changekeys">[</button>
+                <button id="changekeys">]</button>
+                <button class="slash">|</button><br>
+            </div>
+            <!-- third line -->
+            <div class="thirdline">
+                <button class="caps">CapsLock</button>
+                <button>A</button>
+                <button>S</button>
+                <button>D</button>
+                <button>F</button>
+                <button>G</button>
+                <button>H</button>
+                <button>J</button>
+                <button>K</button>
+                <button>L</button>
+                <button id="changekeys">;</button>
+                <button id="changekeys">'</button>
+                <button onclick="display('\n')" class="enter">Enter</button><br>
+            </div>
+            <!-- fourth line -->
+            <div class="fourthline">
+                <button class="shift">Shift</button>
+                <button>Z</button>
+                <button>X</button>
+                <button>C</button>
+                <button>V</button>
+                <button>B</button>
+                <button>N</button>
+                <button>M</button>
+                <button id="changekeys">,</button>
+                <button id="changekeys">.</button>
+                <button id="changekeys">/</button>
+                <button class="shift">Shift</button><br>
+            </div>
+            <!-- fith line -->
+            <div class="fithline">
+                <button class="ctrl">Ctrl</button>
+                <button>win</button>
+                <button>Alt</button>
+                <button onclick="display(' ')" class="space">space</button>
+                <button>Alt</button>
+                <button class="ctrl">Ctrl</button>
+                <button class="pgup">PgUp</button>
+                <button class="up">▲</button>
+                <button class="pgdown">PgDn</button>
+            </div>
+            <div class="symbals">
+                <button class="arrow">◀</button>
+                <button class="arrow">▼</button>
+                <button class="arrow">▶</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js">
+       
+
+    </script>
+    
+
+
+</body>
+
+</html>
